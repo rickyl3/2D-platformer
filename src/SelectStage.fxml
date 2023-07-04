@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="anchorPaneSelect" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SelectStageController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#09080f" height="900.0" stroke="BLACK" strokeType="INSIDE" width="1600.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="370.0" layoutX="90.0" layoutY="60.0" rotate="90.0" stroke="BLACK" strokeType="INSIDE" width="370.0">
+         <fill>
+            <LinearGradient endX="0.6966824644549763" endY="0.5971563981042655">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.12329434603452682" green="0.30263158679008484" blue="0.14720597863197327" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006711409395973154">
+                     <color>
+                        <Color red="0.12329434603452682" green="0.30263158679008484" blue="0.14720597863197327" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.07482131570577621" green="0.18421052396297455" blue="0.057992201298475266" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <ImageView fx:id="firstStage" fitHeight="350.0" fitWidth="350.0" layoutX="100.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="370.0" layoutX="90.0" layoutY="480.0" stroke="BLACK" strokeType="INSIDE" width="370.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="1.0" blue="0.5648148059844971" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.006711409395973154">
+                     <color>
+                        <Color red="0.1268792599439621" green="0.06779970973730087" blue="0.2763157784938812" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.18270285427570343" green="0.15296052396297455" blue="0.40789473056793213" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <ImageView fx:id="secondStage" fitHeight="350.0" fitWidth="350.0" layoutX="100.0" layoutY="490.0" pickOnBounds="true" />
+      <ImageView fx:id="gif" fitHeight="593.0" fitWidth="728.0" layoutX="735.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="backButton" fitHeight="116.0" fitWidth="263.0" layoutX="1327.0" layoutY="774.0" pickOnBounds="true" />
+   </children>
+</AnchorPane>

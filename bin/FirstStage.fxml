@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FirstStageController">
+   <children>
+      <ImageView fx:id="backgroundImage" fitHeight="1000.0" fitWidth="1700.0" layoutX="-50.0" layoutY="-50.0" pickOnBounds="true" />
+      <Ellipse fx:id="player" fill="DODGERBLUE" layoutX="181.0" layoutY="611.0" radiusX="23.0" radiusY="32.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fx:id="playerAnimation" fitHeight="91.0" fitWidth="60.0" layoutX="161.0" layoutY="567.0" pickOnBounds="true" />
+      <ImageView fx:id="bossAnimation" fitHeight="129.0" fitWidth="134.0" layoutX="207.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true" />
+      <Rectangle fx:id="mapMainMiddle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="331.0" layoutX="412.0" layoutY="767.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="783.0" />
+      <Rectangle fx:id="mapMainLeft" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="331.0" layoutX="-43.0" layoutY="813.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="783.0" />
+      <Rectangle fx:id="mapMainRight" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="331.0" layoutX="843.0" layoutY="790.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="783.0" />
+      <ImageView fx:id="mapMainLeftImage" fitHeight="331.0" fitWidth="783.0" layoutX="-43.0" layoutY="807.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="mapMainRightImage" fitHeight="331.0" fitWidth="783.0" layoutX="843.0" layoutY="779.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="mapMainMiddleImage" fitHeight="331.0" fitWidth="783.0" layoutX="410.0" layoutY="761.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bossProjectileImageView" fitHeight="129.0" fitWidth="135.0" layoutX="463.0" layoutY="-116.0" pickOnBounds="true" preserveRatio="true" />
+      <Line fx:id="line" endX="83.0" endY="-16.0" startX="-128.66668701171875" startY="-20.333343505859375" />
+      <ImageView fx:id="upSlashImage0" fitHeight="130.0" fitWidth="113.0" layoutX="161.0" layoutY="521.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="upSlashImage1" fitHeight="92.0" fitWidth="45.0" layoutX="154.0" layoutY="549.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="downSlashImage0" fitHeight="130.0" fitWidth="113.0" layoutX="149.0" layoutY="634.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="downSlashImage1" fitHeight="92.0" fitWidth="45.0" layoutX="164.0" layoutY="559.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="slashImage0" fitHeight="68.0" fitWidth="133.0" layoutX="647.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="slashImage1" fitHeight="58.0" fitWidth="102.0" layoutX="300.0" layoutY="599.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="playerHitImage0" fitHeight="191.0" fitWidth="572.0" layoutX="51.0" layoutY="565.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="playerHitImage1" fitHeight="191.0" fitWidth="858.0" layoutX="61.0" layoutY="575.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="playerHitImage2" fitHeight="191.0" fitWidth="858.0" layoutX="61.0" layoutY="575.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="HudMainImage" fitHeight="120.0" fitWidth="198.0" layoutX="61.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="HudOrbImage" fitHeight="107.0" fitWidth="110.0" layoutX="68.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="playerLife1" fitHeight="44.0" fitWidth="34.0" layoutX="229.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="playerLife2" fitHeight="44.0" fitWidth="34.0" layoutX="239.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="playerLife3" fitHeight="44.0" fitWidth="34.0" layoutX="239.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="playerLife4" fitHeight="44.0" fitWidth="34.0" layoutX="239.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="playerLife5" fitHeight="44.0" fitWidth="34.0" layoutX="239.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bossProjectileMech1" fitHeight="129.0" fitWidth="135.0" layoutX="50.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" />
+      <ImageView fx:id="bossProjectileMech2" fitHeight="129.0" fitWidth="135.0" layoutX="250.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" />
+      <ImageView fx:id="bossProjectileMech3" fitHeight="129.0" fitWidth="135.0" layoutX="450.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" />
+      <ImageView fx:id="bossProjectileMech4" fitHeight="129.0" fitWidth="135.0" layoutX="650.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" />
+      <ImageView fx:id="bossProjectileMech5" fitHeight="129.0" fitWidth="135.0" layoutX="850.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" />
+      <ImageView fx:id="bossProjectileMech6" fitHeight="129.0" fitWidth="135.0" layoutX="1050.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" />
+      <ImageView fx:id="bossProjectileMech7" fitHeight="129.0" fitWidth="135.0" layoutX="1245.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" />
+      <ImageView fx:id="bossProjectileMech8" fitHeight="129.0" fitWidth="135.0" layoutX="1425.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" />
+      <ImageView fx:id="slashEffectImage" fitHeight="171.0" fitWidth="153.0" layoutX="173.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,29 @@
+*{
+    -fx-base: #09080f;
+}
+
+.left-button{
+    -fx-shape: "M 150 250 Q 250 150 400 100 Q 300 250 400 400 Q 250 350 150 250";
+    -fx-background-color: #635d87;
+}
+.left-button:hover{
+    -fx-border-color: #635d87;
+    -fx-background-color: #cccccc;
+}
+.left-button:pressed{
+    -fx-border-color: #635d87;
+    -fx-background-color: #635d87;
+}
+
+.right-button{
+    -fx-shape: "M 650 250 Q 550 150 400 100 Q 500 250 400 400 Q 550 350 650 250";
+    -fx-background-color: #635d87;
+}
+.right-button:hover{
+    -fx-border-color: #635d87;
+    -fx-background-color: #cccccc;
+}
+.right-button:pressed{
+    -fx-border-color: #635d87;
+    -fx-background-color: #635d87;
+}
