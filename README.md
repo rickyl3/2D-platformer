@@ -17,12 +17,18 @@ This tutorial uses Visual Studio Code:
 3. Upon installation of VSC, select the extensions tab on the left-hand side
 4. Search for `Extension Pack for Java` and download it
 5. Search for `JavaFX Support` and download it
+6. Search for `SceneBuilder extension for Visual Studio Code` and download it
 
 ### Setting up JavaFX
 1. Go to the [download](https://gluonhq.com/products/javafx/) page for JavaFX
 2. Click the download button for the respective package that has Architecture `x64` and Type `SDK` for your operating system
 3. Read and accept all licenses
 4. Unzip your downloaded zip file and keep track of the unzipped files; you will need it later
+
+### Setting up SceneBuilder
+1. Go to the [download](https://gluonhq.com/products/scene-builder/) page for Scenebuilder
+2. Download SceneBuilder for your operating system
+3. Read and accept all licenses
 
 ### Setting up the project
 1. Download the project from GitHub
