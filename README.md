@@ -8,7 +8,7 @@ This tutorial uses Visual Studio Code:
 - SceneBuilder
 
 ## Setting up JDK
-1. Go to [Oracle](https://www.oracle.com/java/technologies/downloads/) and click the download button for your respective device
+1. Go to [Oracle](https://www.oracle.com/java/technologies/downloads/) and click the download button for your operating system
 2. Read and accept all licenses and you will soon have the JDK downloaded
 
 ## Setting up Visual Studio Code
